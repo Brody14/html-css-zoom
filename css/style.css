@@ -31,12 +31,33 @@ body {
 
 .zoom {
   color: white;
-  margin: 39px 37px;
+  margin: 64px 60px;
+  margin-bottom: 14px;
 }
 
 .container {
 	max-width: 1816px ;
 	margin: 0 auto;
+}
+
+.top-toolkit {
+  display: flex;
+}
+
+.toolkit-button.top {
+  line-height: 24px;
+  margin-top: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 153px;
+  gap: 6px;
+}
+
+.button-top {
+  background-color: #4A4A4A;
+  border-radius: 5px;
+  padding: 0 5px;
 }
 
 .row {
@@ -67,6 +88,9 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+
+
 /* TOOLKIT */
 
 .toolkit {
