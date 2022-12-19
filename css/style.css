@@ -38,6 +38,7 @@ a {
 
 .col {
   flex-basis: calc(100% / 7);
+  margin: 8px 0;
 }
 
 .user-card {
