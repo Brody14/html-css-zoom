@@ -20,15 +20,23 @@ a {
 	color: currentColor;
 }
 
+body {
+  background-color: #000000;
+
+}
+
+.container-zoom {
+  height: calc(100vh - 64.4px);
+}
+
 .zoom {
-  height: 100vh;
   color: white;
+  margin: 39px 37px;
 }
 
 .container {
 	max-width: 1816px ;
 	margin: 0 auto;
-  background-color: #000000;
 }
 
 .row {
@@ -46,8 +54,8 @@ a {
 }
 
 .user-img {
-  height: 154px;
-  width: 256px;
+  height: 99px;
+  width: 200px;
   display: block;
 }
 
@@ -59,6 +67,46 @@ a {
   position: absolute;
   bottom: 0;
 }
+/* TOOLKIT */
+
+.toolkit {
+  background-color: #222222;
+  color: white;
+  max-width: 100%;
+}
+
+.toolkit-button {
+  display: flex;
+  align-items: center;
+}
+
+.justify-spacebt {
+  justify-content: space-between;
+}
+
+.button {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 5px;
+  line-height: 1.5em;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.share {
+  color: #49CA00;
+}
+
+.button__end {
+  color: red;
+  background-color: #4A4A4A;
+  line-height: 3.5em;
+  padding: 13px;
+  font-size: 12px;
+}
+
 
 /* DEBUG */
 
