@@ -22,19 +22,41 @@ a {
 
 .zoom {
   height: 100vh;
+  color: white;
 }
 
 .container {
 	max-width: 1816px ;
 	margin: 0 auto;
+  background-color: #000000;
 }
 
 .row {
   display: flex;
+  gap: 6px;
 }
 
 .col {
-  flex-basis: calc(100% / 5);
+  flex-basis: calc(100% / 7);
+}
+
+.user-card {
+  position: relative;
+}
+
+.user-img {
+  height: 154px;
+  width: 256px;
+  display: block;
+}
+
+.user-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  line-height: 29px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
 }
 
 /* DEBUG */
